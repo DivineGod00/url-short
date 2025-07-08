@@ -11,5 +11,5 @@ import com.example.urlshortnering.model.UrlSql;
 public interface UrlSqlRepo extends JpaRepository<UrlSql,Long> {
 
 	Optional<UrlSql> findByLongUrl(String longUrl);
-	Optional<UrlSql> findByShortUrl(String shortUrl)
+	Optional<UrlSql> findByShortUrl(String shortUrl);
 }
